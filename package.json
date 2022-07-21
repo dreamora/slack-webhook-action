@@ -1,26 +1,27 @@
 {
   "name": "slack-webhook-github-action",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A lightweight and highly customizable GitHub action which notifies you via webhook in your slack channel",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiloio/slack-webhook-action.git"
+    "url": "git+https://github.com/dreamora/slack-webhook-action.git"
   },
   "keywords": [
     "slack",
     "notification"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=16",
+    "yarn": ">=1.22.19"
   },
-  "author": "Ti/o",
+  "author": "Dreamora",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tiloio/slack-webhook-action/issues"
+    "url": "https://github.com/dreamora/slack-webhook-action/issues"
   },
-  "homepage": "https://github.com/tiloio/slack-webhook-action#readme",
+  "homepage": "https://github.com/dreamora/slack-webhook-action#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.9.0"
   }
 }
