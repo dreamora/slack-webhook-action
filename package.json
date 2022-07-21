@@ -1,6 +1,6 @@
 {
   "name": "slack-webhook-github-action",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and highly customizable GitHub action which notifies you via webhook in your slack channel",
   "main": "index.js",
   "repository": {
