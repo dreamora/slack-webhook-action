@@ -1,3 +1,5 @@
-# Initial release
+# Expose PR Title
 
-Initial test release to verify the action working reliably
+> 2022-07-21
+
+* Implements a custom variable to expose the PR title from the github event that otherwise can not be consumed in the messages sent to slack.
