@@ -11,6 +11,9 @@
     "slack",
     "notification"
   ],
+  "scripts":{
+    "build":"ncc build index.js -o dist"
+  },
   "engines": {
     "node": ">=16",
     "yarn": ">=1.22.19"
@@ -23,5 +26,8 @@
   "homepage": "https://github.com/dreamora/slack-webhook-action#readme",
   "dependencies": {
     "@actions/core": "^1.9.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.34.0"
   }
 }
