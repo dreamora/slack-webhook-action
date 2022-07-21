@@ -13,8 +13,8 @@
   ],
   "scripts": {
     "build": "ncc build index.js -o dist",
-    "patch": "yarn build && git add . && yarn version --patch",
-    "minor": "yarn build && git add . && yarn version --minor"
+    "patch": "yarn build && git add . && yarn version --patch && git push",
+    "minor": "yarn build && git add . && yarn version --minor && git push"
   },
   "engines": {
     "node": ">=16",
