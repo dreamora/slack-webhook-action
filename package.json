@@ -1,6 +1,6 @@
 {
   "name": "slack-webhook-github-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and highly customizable GitHub action which notifies you via webhook in your slack channel",
   "main": "index.js",
   "repository": {
@@ -11,8 +11,8 @@
     "slack",
     "notification"
   ],
-  "scripts":{
-    "build":"ncc build index.js -o dist"
+  "scripts": {
+    "build": "ncc build index.js -o dist"
   },
   "engines": {
     "node": ">=16",
